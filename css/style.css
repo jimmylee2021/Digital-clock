@@ -9,12 +9,13 @@ body {
     height: 100vh;
     width: 100%;
     background-size: cover;
+    overflow: hidden;
 }
 
 .box {
     display: flex;
     justify-content: center;
-    margin-top: 30vh;
+    margin-top: 40vh;
 }
 .time-div {
     display: flex;
