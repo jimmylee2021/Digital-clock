@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/img-1.jpg)no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.time-div {
+    display: flex;
+    padding: 15px;
+    text-align: center;
+}
+.day {
+    padding-left: 15px;
+    font-size: 40px;
+    color: #fff;
+}
+.hour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+@media  only screen and (max-width: 300px) {
+    .hour {
+        font-size: 30px;
+    }
+}
